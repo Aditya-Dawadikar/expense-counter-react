@@ -1,0 +1,57 @@
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.form-container{
+    padding:10px 10px;
+    z-index: 100;
+    position: absolute;
+    width: 240px;
+    top:260px;
+    top: calc(50vh - 95px);
+    left:130px;
+    height: 170px;
+    background-color: rgb(231, 252, 255);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 20px 55px, rgba(0, 0, 0, 0.5) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.5) 0px 12px 13px, rgba(0, 0, 0, 0.5) 0px -3px 5px;
+}
+
+.label{
+    font-weight: bold;
+}
+
+.input{
+    width: 200px;
+    height: 30px;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+.input:focus{
+    outline: none;
+}
+
+.input-btn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(108, 255, 120);
+    border-radius: 0px;
+    position: relative;
+    left:60px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.close-btn{
+    position: absolute;
+    left: 230px;
+    top:-15px;
+    background-color: rgb(255, 89, 89);
+}
+
+.close-btn:hover{
+    background-color: rgb(255, 72, 72);
+    color:white;
+}

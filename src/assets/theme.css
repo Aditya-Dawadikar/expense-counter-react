@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;    
+}
+
+.primary{
+    background-color: #ff2e51;
+}
+
+.secondary{
+    background-color: #2c2222;
+}
+
+.tertiary{
+    background-color: #554343;
+}
+
+.line{
+    height: 1px;
+    background-color: #554343;
+}

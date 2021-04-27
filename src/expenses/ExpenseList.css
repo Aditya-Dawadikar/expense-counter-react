@@ -1,0 +1,81 @@
+.list{
+    width: 250px;
+    height: 450px;
+    background-color: rgb(164, 164, 167);
+    padding: 2px;
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+}
+
+.list-element{
+    height: 50px;
+    margin-bottom: 3px;
+    padding-left: 30px;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.blue{
+    background-color: rgb(42, 116, 201);
+}
+
+.blue:hover{
+    background-color:rgb(31, 91, 180);
+    color: white;
+}
+
+.red{
+    background-color: rgb(255, 91, 91);
+}
+
+.red:hover{
+    background-color:rgb(219, 41, 41);
+    color: white;
+}
+
+.key{
+    font-weight: bold;
+}
+
+.value{
+    position: relative;
+    padding-left: 10px;
+    top:1px;
+}
+
+.close-btn{
+    z-index: 1;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    background-color: rgb(255, 89, 89);
+}
+
+.close-btn:hover{
+    background-color: rgb(255, 72, 72);
+    color:white;
+}
+
+.delete-btn{
+    background-color: rgb(201, 37, 37);
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    color:white;
+    position: relative;
+    top:-30px;
+    left: 180px;
+}
+
+.delete-btn:hover{
+    background-color: white;
+    color:red;
+    font-weight: bold;
+}
